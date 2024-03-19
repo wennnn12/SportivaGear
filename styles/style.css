@@ -1,0 +1,67 @@
+/* =============== GOOGLE FONT ============== */
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+
+/* ================= APALAH =====================*/
+:root {
+/* ==color== */
+    --header-height : 3.5rem;
+    --title-color: hsl(250, 8%, 15%);
+    --text-color: hsl(250, 8%, 35%);
+    --body-color: hsl(250, 60%, 98%);
+    --container-color: #fff;
+    --shadow: hsla(0, 0%, 15%, 0.1);
+
+/* ============= font =========== */
+    --body-font: 'Jacques Francois Shadow';
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+}
+/*============= BASE ==============*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body,
+button,
+input {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+h1,h2,h3 {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.navlogo {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Jacques Francois Shadow;
+}
+
+.navlogo img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
